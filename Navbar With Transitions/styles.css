@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(44, 44, 44);
+  font-family: "Roboto Slab", serif;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: turquoise;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: turquoise;
+  font-size: 20px;
+  border-color: rgba(0, 0, 0, 10);
+}
